@@ -1,1 +1,41 @@
-Lorem ipsum
+// Page layout 
+body {
+    margin: auto 0;
+}
+
+.zone {
+    font-size:1em;
+    border-radius:4px;
+    border: 1px gray;
+}
+
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-size: 0.7em;
+    flex-direction: row;
+}
+
+li {
+  padding: 10px;
+}
+
+a {
+    color: #0072B2;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.navLeft {
+  margin-left: 0px;
+}
+
+.navCenter {
+  font-size: 1.3em;
+}
+
+.navRight {
+  margin-left: auto;
+}
