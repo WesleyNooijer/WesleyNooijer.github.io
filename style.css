@@ -10,13 +10,13 @@ body {
 }
 
 
-.main-nav {
+/* .main-nav {
     display: flex;
     list-style: none;
     margin: 0;
     font-size: 0.7em;
     flex-direction: row;
-}
+} */
 
 li {
   padding: 10px;
@@ -28,14 +28,29 @@ a {
     text-decoration: none;
 }
 
-.navLeft {
-  margin-left: 0px;
+/* Add a black background color to the top navigation */
+.main-nav {
+  background-color: #D3D3D3;
+  overflow: hidden;
 }
 
-.navCenter {
-  font-size: 1.3em;
+/* Style the links inside the navigation bar */
+.main-nav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-.navRight {
-  margin-left: auto;
+/* Change the color of links on hover */
+.main-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.main-nav a.active {
+  background-color: #4CAF50;
+  color: white;
 }
