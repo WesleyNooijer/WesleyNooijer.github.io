@@ -19,7 +19,7 @@ a {
 
 /* Add a black background color to the top navigation */
 .main-nav {
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
   overflow: hidden;
   margin: auto 0;
   height: 3rem;
