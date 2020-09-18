@@ -39,7 +39,7 @@ a {
 
 /* Change the color of links on hover */
 .main-nav a:hover {
-  color: black;
+  text-decoration: underline;
 }
 
 /* Add a color to the active/current link */
