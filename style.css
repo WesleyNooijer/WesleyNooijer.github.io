@@ -4,7 +4,7 @@ body, html {
     background-color: black;
     color: white;
     /* color: #0072B2; */
-    height: 100%; 
+    height: 100%;
 }
 
 /* Navigation bar */
@@ -22,14 +22,18 @@ body, html {
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  display: inline-block;
+  font-weight: bold;
   position: relative;
   text-align: center;
   color: white;
   padding: 14px 16px;
-  font-weight: bold;
-  text-decoration: none;
   opacity: 0.8;
+  text-decoration: none;
+}
+
+.topnav a.title {
+  font-size: 1.2rem;
+  top: -3px;
 }
 
 /* Hover to make link bold and underline text */
@@ -49,7 +53,7 @@ body, html {
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
   .topnav a:not(:nth-child(-n+1)) {display: none;}
   .topnav a.icon {
     float: right;
@@ -60,7 +64,7 @@ body, html {
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
@@ -82,7 +86,7 @@ body, html {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("home_photo.jpg");
 
   /* Set a specific height */
-  height: 80%;
+  height: 50%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -104,4 +108,41 @@ body, html {
 /* Introduction */
 .introduction {
   text-align: center;
+}
+
+
+/* Image grid */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 50%;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
