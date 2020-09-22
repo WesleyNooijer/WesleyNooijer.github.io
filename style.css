@@ -5,6 +5,7 @@ body, html {
     color: white;
     /* color: #0072B2; */
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Navigation bar */
@@ -112,12 +113,11 @@ body, html {
   width: 50%;
   letter-spacing: 0.025rem;
   line-height: 1.5rem;
-  font-family: 'Open Sans', sans-serif;
   text-align: justify;
   text-justify: inter-word;
 }
 
-.introduction-text {
+h1 {
   font-size: 1.5rem;
   line-height: 2rem;
   text-align: center;
