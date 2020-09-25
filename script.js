@@ -12,7 +12,7 @@ class navbar extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <div class="topnav" id="myTopnav">
-    <a href="/">Wesley de Nooijer</a>
+    <a href="wesleynooijer.github.io">Wesley de Nooijer</a>
     <a href="essays-index.html">Essays</a>
     <a href="projects-index.html">Projects</a>
     <a href="innovation-index.html">Roam</a>
