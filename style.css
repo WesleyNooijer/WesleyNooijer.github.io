@@ -114,7 +114,7 @@ body, html {
   letter-spacing: 0.025rem;
   line-height: 1.5rem;
   text-align: justify;
-  text-justify: inter-word;
+  /* text-justify: none;  */
   padding-bottom: 10px;
 }
 
@@ -123,7 +123,3 @@ h1 {
   line-height: 2rem;
   text-align: center;
 }
-
-/* hr {
-  height: 0px;
-} */
