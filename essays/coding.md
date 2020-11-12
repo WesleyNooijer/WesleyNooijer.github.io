@@ -1,11 +1,9 @@
 # Why code is valuable
 Why is software valuable? How does it actually help us in our daily lives?
 
-To answer this, let's first look at what software is. Software, or code, essentially tells computers (hardware) what to do. Computers, in turn, are devices that store and process information (data) based on the instructions given by this software. Computers can process anything that can be 
+To answer this, let's first look at what software is. Software, or code, essentially tells computers (hardware) what to do. Computers, in turn, are devices that store and process information (data) based on the instructions given by this software. Computers can process anything that can be quantified.
 
 Asking why software is valuable thus means asking why it is so valuable to tell powerful information processors what to do. 
-
-
 
 So, computers are a tool that can process information, and software specifies how this processing should be done. As humans, we have been using tools for thousands of years to improve different aspects of our lives. Tools that helped us hunt, tools that helped us farm lands, and tools that helped power the industrial revolution (the steam engine). What all of these tools have in common, is that they allowed humans to get more work out of their energy.
 
