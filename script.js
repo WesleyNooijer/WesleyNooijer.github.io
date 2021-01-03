@@ -28,6 +28,9 @@ class navbar extends HTMLElement {
     <a class="social" aria-hidden="true" href="https://twitter.com/WesleyNooijer" target="_blank">
       <i class="fa fa-twitter" style="color:#1DA1F2"></i> 
     </a>
+    <a class="social" aria-hidden="true" href="https://techfrontiers.substack.com" target="_blank">
+      <i class="fa fa-bookmark" style="color:#FFA500"></i> 
+    </a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars" style="color:white"></i>
     </a>
