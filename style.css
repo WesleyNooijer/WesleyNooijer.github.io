@@ -64,8 +64,8 @@ body, html {
   padding-bottom: 10px;
 }
 
-/* When the screen is less than 650 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 650px) {
+/* When the screen is less than 700 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 700px) {
   .topnav a:not(:nth-child(-n+1)) {display: none;}
   .topnav a.icon {
     float: right;
@@ -80,7 +80,7 @@ body, html {
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
@@ -145,4 +145,40 @@ h1 {
 
 .centered {
   text-align: center;
+}
+
+
+/* Collapsible */
+.collapsible {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-size: 1.5rem;
+  border: 0.1px solid #2D2D2D;
+}
+
+.active, .collapsible:hover {
+  background-color: #2D2D2D;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+.collapsible:after {
+  content: '\25BC'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\25B2"; /* Unicode character for "minus" sign (-) */
 }

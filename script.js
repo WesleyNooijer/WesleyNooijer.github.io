@@ -14,8 +14,8 @@ class navbar extends HTMLElement {
     <div class="topnav" id="myTopnav">
     <a href="/">Wesley de Nooijer</a>
     <a href="essays-index.html">Essays</a>
-    <a href="projects-index.html">Projects</a>
-    <a href="https://roamresearch.com/#/app/roamNERD_test/page/dfr2yR2Zs" target="_blank">Roam</a>
+    <a href="tweetstorms-index.html">Tweetstorms</a>
+    <a href="projects-index.html" target="_blank">Projects</a>
     <a class="social" aria-hidden="true" href="https://www.linkedin.com/in/wesleydenooijer/" target="_blank">
       <i class="fa fa-linkedin" style="color:#0077B5"></i> 
     </a>
@@ -39,3 +39,18 @@ class navbar extends HTMLElement {
   }
 }
 customElements.define('navbar-template', navbar);
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
