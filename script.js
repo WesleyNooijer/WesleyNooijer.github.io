@@ -15,7 +15,7 @@ class navbar extends HTMLElement {
     <a href="/">Wesley de Nooijer</a>
     <a href="essays-index.html">Essays</a>
     <a href="tweetstorms-index.html">Tweetstorms</a>
-    <a href="projects-index.html" target="_blank">Projects</a>
+    <a href="projects-index.html">Projects</a>
     <a class="social" aria-hidden="true" href="https://www.linkedin.com/in/wesleydenooijer/" target="_blank">
       <i class="fa fa-linkedin" style="color:#0077B5"></i> 
     </a>
