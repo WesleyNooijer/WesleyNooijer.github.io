@@ -19,6 +19,15 @@ body, html {
   top: 0;
   z-index: 2;
   font-family: 'Raleway', sans-serif;
+  background-color: black;
+}
+
+/* Text */
+p { 
+  word-break: normal;
+  white-space: normal;
+  text-align: center;
+  padding: 35px;
 }
 
 /* Style the links inside the navigation bar */
@@ -26,9 +35,11 @@ body, html {
   float: left;
   position: relative;
   text-align: center;
-  color: white;
+  background: -webkit-linear-gradient(#00A9FE, #CB2FD0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   padding: 14px 16px;
-  opacity: 0.8;
+  opacity: 1;
   text-decoration: none;
 }
 
@@ -65,7 +76,7 @@ body, html {
 }
 
 /* When the screen is less than 700 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .topnav a:not(:nth-child(-n+1)) {display: none;}
   .topnav a.icon {
     float: right;
@@ -80,7 +91,7 @@ body, html {
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;

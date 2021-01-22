@@ -13,9 +13,10 @@ class navbar extends HTMLElement {
     this.innerHTML = `
     <div class="topnav" id="myTopnav">
     <a href="/">Wesley de Nooijer</a>
-    <a href="essays-index.html">Essays</a>
-    <a href="tweetstorms-index.html">Tweetstorms</a>
-    <a href="projects-index.html">Projects</a>
+    <a href="/essays-index.html">Essays</a>
+    <a href="/tweetstorms-index.html">Tweetstorms</a>
+    <a href="/projects-index.html">Projects</a>
+    <a href="/links.html">Links</a>
     <a class="social" aria-hidden="true" href="https://www.linkedin.com/in/wesleydenooijer/" target="_blank">
       <i class="fa fa-linkedin" style="color:#0077B5"></i> 
     </a>
