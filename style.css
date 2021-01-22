@@ -26,8 +26,8 @@ body, html {
 p { 
   word-break: normal;
   white-space: normal;
-  text-align: center;
-  padding: 35px;
+  padding: 10%;
+  text-align: justify;
 }
 
 /* Style the links inside the navigation bar */
